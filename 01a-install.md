@@ -67,7 +67,5 @@ In the Terminal:
 <<<<<<< HEAD
 =======
 
- 
->>>>>>> 2e9dea2f472836101850c7ef189a7569b9dbf7f3
 
 
