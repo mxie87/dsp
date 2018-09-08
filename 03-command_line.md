@@ -89,7 +89,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 
+> > 
 Xargs is a command that allows you to convert inputted data (stdin) into executable commands, often used for passing the inputted data into other commands to be called on. It is often use with find, grep and other commands.
 
 For example:
