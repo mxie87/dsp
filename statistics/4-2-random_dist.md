@@ -28,10 +28,10 @@ thinkplot.Config(xlabel='random variable', ylabel='CDF')
 
 ```
 
-![alt text](./PWchp4ex2_PMF.png "PMF")
+![alt text](/Users/medfordxie/Desktop/METIS/Metisgh/prework/dsp/statistics/PWchp4ex2_PMF.png "PMF")
 
 
-![alt text](./PWchp4ex2_CDF.png "CDF")
+![alt text](/Users/medfordxie/Desktop/METIS/Metisgh/prework/dsp/statistics/PWchp4ex2_CDF.png "CDF")
 
 
 The PMF returns the same value (.001) for each random variable, this makes sense because each number has the same probability of occuring (1/1000)
