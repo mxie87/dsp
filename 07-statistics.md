@@ -88,13 +88,13 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >>
 
-P(Identical Twin | Twin) = P(Twin | Identical Twin) x P(Identical Twin) / P(Twin)
+P(Identical Twin | Twin) = P(Twin | Identical Twin) x P(Identical Twin) / P(Twin)  
 
-P(Twin | Identical Twin) = 1 
-P(Identical Twin) = 1/300
-P(Twin) = 1/300 + 1/125
+P(Twin | Identical Twin) = 1   
+P(Identical Twin) = 1/300  
+P(Twin) = 1/300 + 1/125  
 
-P(Identical Twin | Twin) = .294 
+P(Identical Twin | Twin) = .294   
 
 The probability that Elvis was a identaical twin is 29.4%
 
@@ -117,7 +117,7 @@ In the example above, a Bayesian approach would be to define a probability distr
 
 In the simplest terms, Frequentist Statistics may be more accurate since it is based on actual recorded frequencies of events, however it is more limited than Bayesian Statistics because of the view that probabilities cannot be applied to hypotheses and it cannot address uncertainty. Whereas Bayesian Statistics can be applied to single occurrences or events, views probabilities as distributions and can update these distributions with new data. 
 
-* Source: Probabilistic World Blog https://www.probabilisticworld.com/frequentist-bayesian-approaches-inferential-statistics/
+/* Source: Probabilistic World Blog https://www.probabilisticworld.com/frequentist-bayesian-approaches-inferential-statistics/
  
 
 ---
