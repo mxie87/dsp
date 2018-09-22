@@ -86,14 +86,39 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
+
+P(Identical Twin | Twin) = P(Twin | Identical Twin) x P(Identical Twin) / P(Twin)
+
+P(Twin | Identical Twin) = 1 
+P(Identical Twin) = 1/300
+P(Twin) = 1/300 + 1/125
+
+P(Identical Twin | Twin) = .294 
+
+The probability that Elvis was a identaical twin is 29.4%
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
+
+According to frequentist definitions of probability, only repeatable random events, such as rolling a dice, flipping a coin, and drawing a card from a deck, have probabilities. These probabilities are equal to the long-term frequency of the events in question. For example, there is no probability of rolling an odd number in a single roll. The true probability is equal to the percentage of “odd number” outcomes from a hypothetical series of infinite number of rolls.* Or the probability of rolling a six with a fair six-sided dice given that you roll the dice 1 million times will be extremely close to the outcome’s probability of 1/6, and it would be much closer to the probability of 1/6 than if you only rolled the dice 100 times. The frequentist approach does not attached probabilities to hypotheses or to any fixed but unknown values, such as the exact percentage of all humans who are 6 feet tall (since it would be impossible to measure all 7 billion people). However, frequentist would collect data from a sample of the population and determine its mean as the maximum likelihood estimate that would represent the entire population.
+
+
+On the other hand the Bayesian view of probabilities is that it can be more generalized. It can be applied to single events and there is no repeatability requirement. Probabilities can be used to represent uncertainty in any event or hypothesis. For example it is acceptable to assign probabilities to non-repeatable events such as President Trump will be impeached in 2019 – something that Frequentist would claim impossible because his presidential term cannot be simulated an infinite number of times to determine how many times he was impeached. In this view probabilities are a measure of degree of belief and logical soundness. In other words, probabilities represent how certain you are about the truth of statements. These statements can refer to the past, the present, or the future.* 
+
+
+In the example above, a Bayesian approach would be to define a probability distribution over the possible values of the mean (number of people at 6 feet tall) and then analyze sample data to update the distribution (using Bayes’ theorem). Probabilities are updated using Bayes’ theorem, where your initial belief is your prior probability for an event, which can be updated into a posterior probability with new information.* Frequentists typically do not update probabilities with Bayes’ theorem, but with direct physical observations. 
+
+
+In the simplest terms, Frequentist Statistics may be more accurate since it is based on actual recorded frequencies of events, however it is more limited than Bayesian Statistics because of the view that probabilities cannot be applied to hypotheses and it cannot address uncertainty. Whereas Bayesian Statistics can be applied to single occurrences or events, views probabilities as distributions and can update these distributions with new data. 
+
+* Source: Probabilistic World Blog https://www.probabilisticworld.com/frequentist-bayesian-approaches-inferential-statistics/
+ 
 
 ---
 
